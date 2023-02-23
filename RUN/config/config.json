@@ -1,0 +1,18 @@
+{
+    "audit_params":{
+       "bq_project":"apmena-onedata-dna-apac-${GCP_ENV}",
+       "bq_inbound_dataset":"mds_stg_inbound",
+       "bq_outbound_dataset":"mds_stg_outbound",
+       "bq_audit_dataset":"mds_stg",       
+       "bq_audit_table":"mds_task_audit_control"
+    },
+    "gcp":{
+       "project":"apmena-onedata-dna-apac-${GCP_ENV}"
+    },
+    "mds":{
+       "mds_server":"hkapapmdmdb1a.fe318675995e.database.windows.net",
+       "mds_database":"${DATABASE}",
+       "mds_username":"mds_integration",
+       "mds_password":"Mdsintegration@123"
+    }
+ }
